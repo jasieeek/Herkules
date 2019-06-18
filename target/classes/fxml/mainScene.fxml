@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="pl.herkules.controller.MainController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <AnchorPane layoutX="191.0" layoutY="85.0" prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <Button layoutX="74.0" layoutY="75.0" mnemonicParsing="false" onAction="#button" text="Button" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
