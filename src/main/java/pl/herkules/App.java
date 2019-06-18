@@ -13,6 +13,8 @@ public class App extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/mainScene.fxml"));
 
         stage.setScene(new Scene(root));
+        stage.setTitle("Herkules");
+        stage.setResizable(false);
         stage.show();
     }
 

@@ -1,2 +1,8 @@
+pl\herkules\model\Recipe.class
+pl\herkules\scan\DietScan.class
+pl\herkules\model\Component.class
 pl\herkules\controller\MainController.class
 pl\herkules\App.class
+pl\herkules\controller\MenuController.class
+pl\herkules\singleton\MainReport.class
+pl\herkules\addtives\FileSelect.class

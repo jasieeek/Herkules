@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcebe56f-f6cc-4cce-a423-4e7d7a71787d" name="Default Changelist" comment="" />
+    <list default="true" id="bcebe56f-f6cc-4cce-a423-4e7d7a71787d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/herkules/addtives/FileSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/herkules/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/herkules/model/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/herkules/model/Recipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/herkules/scan/DietScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/herkules/singleton/MainReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/menuScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/logo.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/herkules/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/herkules/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/herkules/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/herkules/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/mainScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/mainScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/mainScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/mainScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/herkules/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/herkules/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/herkules/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/herkules/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,29 +29,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,22 +48,147 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/mainScene.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            <state relative-caret-position="391">
+              <caret line="23" column="84" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/controller/MainController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/scan/DietScan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="-61">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="39" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/menuScene.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="84" lean-forward="true" selection-start-line="28" selection-start-column="84" selection-end-line="28" selection-end-column="84" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/controller/MenuController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/addtives/FileSelect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/controller/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/singleton/MainReport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/model/Recipe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="93" selection-start-line="11" selection-start-column="93" selection-end-line="11" selection-end-column="93" />
+              <folding>
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/model/Component.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+              <folding>
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,17 +200,28 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pl/herkules/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/herkules/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/mainScene.fxml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/mainScene.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/herkules/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/herkules/addtives/FileSelect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/herkules/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/herkules/model/Component.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/herkules/model/Recipe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/herkules/singleton/MainReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/herkules/scan/DietScan.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/menuScene.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/herkules/controller/MenuController.java" />
       </list>
     </option>
   </component>
@@ -109,12 +251,13 @@
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,19 +291,85 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="herkules" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Herkules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Herkules" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="herkules" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Herkules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Herkules" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="herkules" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Herkules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Herkules" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="herkules" type="462c0819:PsiDirectoryNode" />
+              <item name="scan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Herkules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Herkules" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="herkules" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Herkules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Herkules" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Herkules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Herkules" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="fxml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Herkules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Herkules" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../testy/RegularExpressionTester" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\JAVA\DietAssistant\Herkules\src\main\resources\img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -234,87 +443,197 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560877221850</updated>
-      <workItem from="1560877226227" duration="446000" />
+      <workItem from="1560877226227" duration="673000" />
+      <workItem from="1560877922157" duration="8452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="446000" />
+    <option name="totallyTimeSpent" value="9125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29212254" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2986871" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32932165" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.32932165" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32932165" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/mainScene.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="918">
           <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/addtives/FileSelect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/model/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/model/Recipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="93" selection-start-line="11" selection-start-column="93" selection-end-line="11" selection-end-column="93" />
+          <folding>
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/singleton/MainReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/scan/DietScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="39" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/mainScene.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="84" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/menuScene.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="84" lean-forward="true" selection-start-line="28" selection-start-column="84" selection-end-line="28" selection-end-column="84" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/herkules/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
           </folding>
         </state>
       </provider>
